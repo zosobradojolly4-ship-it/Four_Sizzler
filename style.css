@@ -221,7 +221,7 @@ input {
 .category {
     width: 100%;
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     justify-content: center;
 
     /* SPACE BEFORE POPULAR DISHES */
@@ -233,9 +233,9 @@ input {
 /* MENU CONTAINER */
 
 .category .list-items {
-    width: 90%;
+    width: 110%;
     position: relative;
-    margin-top: 80px;
+    margin-top: 100px;
 }
 
 
@@ -245,7 +245,7 @@ input {
     font-size: 20px;
     font-weight: 600;
     font-family: sans-serif;
-    margin-bottom: 400px;
+    margin-bottom: 500px;
 }
 
 
