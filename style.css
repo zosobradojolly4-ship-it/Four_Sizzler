@@ -199,12 +199,6 @@ input {
     margin-bottom: 100px;
     justify-content: center;
 
-    /*
-       REDUCED THIS SPACE
-       SO PRODUCTS APPEAR HIGHER
-       WHEN MENU IS CLICKED
-    */
-
     padding-top: 100px;
 }
 
@@ -216,17 +210,20 @@ input {
 }
 
 
+/* POPULAR DISHES */
+
 .category .list-items h3 {
     font-size: 20px;
     font-weight: 600;
     font-family: sans-serif;
 
     /*
-       REDUCED THE OLD 400px SPACE
-       SO THE PRODUCTS ARE HIGHER
+       APPROXIMATELY 3 INCHES
+       BETWEEN POPULAR DISHES
+       AND THE PRODUCTS
     */
 
-    margin-bottom: 80px;
+    margin-bottom: 288px;
 }
 
 
@@ -243,12 +240,6 @@ input {
 
 .category .card-list .card {
     width: 200px;
-
-    /*
-       MORE ROOM FOR PHOTO,
-       DESCRIPTION AND PRICE
-    */
-
     min-height: 320px;
     height: auto;
 
@@ -278,13 +269,7 @@ input {
 }
 
 
-/*
-   FOOD PHOTO
-
-   MOVED HIGHER
-   AND MADE A LITTLE SMALLER
-   SO IT DOES NOT COVER THE TEXT
-*/
+/* FOOD PHOTO */
 
 .category .card-list .card img {
     width: 115px;
@@ -516,4 +501,3 @@ footer p {
     }
 
 }
-
