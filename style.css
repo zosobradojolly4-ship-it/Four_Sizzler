@@ -288,7 +288,7 @@ input {
 .category .card-list .card img {
     width: 130px;
     height: auto;
-    bottom: 100px;
+    bottom: 120px;
     left: 35px;
     object-fit: cover;
     object-position: center;
@@ -302,7 +302,7 @@ input {
 /* FOOD TITLE */
 
 .category .card-list .card .Food-Tittle {
-    padding: 40px 0 10px;
+    padding: 50px 0 10px;
 }
 
 
