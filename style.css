@@ -263,7 +263,7 @@ input {
 .category .card-list .card {
     width: 200px;
     height: auto;
-    min-height: 220px;
+    min-height: 300px;
     display: block;
     padding: 10px;
     border-radius: 10px;
@@ -286,7 +286,7 @@ input {
 /* FOOD IMAGE */
 
 .category .card-list .card img {
-    width: 130px;
+    width: 200px;
     height: auto;
     bottom: 130px;
     left: 35px;
