@@ -184,8 +184,8 @@ input {
     font-weight: 600;
     font-family: sans-serif;
 
-    /* Approximately 2 inches from Popular Dishes to products */
-    margin-bottom: 192px;
+    /* Responsive 2-inch maximum gap */
+    margin-bottom: clamp(80px, 12vw, 192px);
 }
 
 .category .list-items .card-list {
@@ -416,5 +416,3 @@ footer p {
     }
 }
 ```
-
-The only spacing change is **`margin-bottom: 192px`** under “Popular Dishes.”
