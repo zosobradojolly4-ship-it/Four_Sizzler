@@ -820,7 +820,417 @@
 
 </body>
 
-</html>
+</html><!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer">
+
+    <title>Four Sizzler</title>
+</head>
+
+<body>
+
+    <!-- ================= NAVIGATION ================= -->
+
+    <section class="menu" id="home">
+
+        <div class="nav">
+
+            <div class="logo">
+                <h1>Four<b>Sizzler</b></h1>
+            </div>
+
+            <ul>
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+
+                <li>
+                    <a href="#menu">Menu</a>
+                </li>
+
+                <li>
+                    <a href="#about">About Us</a>
+                </li>
+            </ul>
+
+            <div class="account-buttons">
+
+                <input
+                    class="signin"
+                    type="button"
+                    value="Sign In"
+                    onclick="signIn()">
+
+                <input
+                    class="signup"
+                    type="button"
+                    value="Sign Up"
+                    onclick="signUp()">
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= HOME ================= -->
+
+    <section class="grid">
+
+        <div class="content">
+
+            <div class="content-left">
+
+                <div class="info">
+
+                    <h2>
+                        Order Your Best
+                        <br>
+                        Food anytime
+                    </h2>
+
+                    <p>
+                        You just found your new favorite food spot.
+                        Cravings hitting? Say less. We've got fresh,
+                        delicious, and satisfying food,
+                        <br>
+                        waiting for you always close, always ready,
+                        always worth the bite.
+                        <br>
+                        No more "what should I eat?" moments.
+                        Your cravings already know where to go.
+                        <br>
+                        Fresh food. Big flavor. Zero regrets.
+                        <br>
+                        Pull up and treat yourself!
+                    </p>
+
+                </div>
+
+                <a href="#menu">
+                    <button>Explore Food</button>
+                </a>
+
+            </div>
+
+
+            <div class="content-right">
+
+                <img src="intro 2.png" alt="Four Sizzler Food">
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= MENU ================= -->
+
+    <section class="category" id="menu">
+
+        <div class="list-items">
+
+            <h3>Popular Dishes</h3>
+
+
+            <div class="card-list">
+
+
+                <!-- CLASSIC -->
+
+                <div
+                    class="card"
+                    onclick="orderProduct('Classic')">
+
+                    <img
+                        src="image2 classic.jfif"
+                        alt="Classic">
+
+                    <div class="Food-Tittle">
+
+                        <h1>Classic</h1>
+
+                    </div>
+
+                    <div class="desc-food">
+
+                        <p>
+                            Classic - Walang tapon,
+                            puro sarap lang!
+                        </p>
+
+                    </div>
+
+                    <div class="price">
+
+                        <span>
+                            ₱13
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-cart-plus cart-icon"></i>
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- ORIGINAL -->
+
+                <div
+                    class="card"
+                    onclick="orderProduct('Original')">
+
+                    <img
+                        src="image1 original.jfif"
+                        alt="Original">
+
+                    <div class="Food-Tittle">
+
+                        <h1>Original</h1>
+
+                    </div>
+
+                    <div class="desc-food">
+
+                        <p>
+                            Original - Isa lang 'to,
+                            babalikan mo pa!
+                        </p>
+
+                    </div>
+
+                    <div class="price">
+
+                        <span>
+                            ₱12
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-cart-plus cart-icon"></i>
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- HOT AND SPICY -->
+
+                <div
+                    class="card"
+                    onclick="orderProduct('Hot and Spicy')">
+
+                    <img
+                        src="image3 hot and spicy.jfif"
+                        alt="Hot and Spicy">
+
+                    <div class="Food-Tittle">
+
+                        <h1>Hot and Spicy</h1>
+
+                    </div>
+
+                    <div class="desc-food">
+
+                        <p>
+                            Hot and Spicy -
+                            Masakit si bibig,
+                            masakit din sa bulsa!
+                        </p>
+
+                    </div>
+
+                    <div class="price">
+
+                        <span>
+                            ₱15
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-cart-plus cart-icon"></i>
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT US ================= -->
+
+    <section
+        id="about"
+        class="about-section">
+
+        <div class="about-content">
+
+            <h2>About Us</h2>
+
+            <p>
+                Welcome to Four Sizzler!
+                We serve fresh, delicious, and satisfying
+                food made for every craving.
+                Our goal is to give you tasty food,
+                great service, and a satisfying experience
+                every time you order.
+            </p>
+
+
+            <div class="contact-info">
+
+                <p>
+
+                    <strong>
+                        Facebook Page:
+                    </strong>
+
+                    <a
+                        href="YOUR_FACEBOOK_PAGE_LINK_HERE"
+                        target="_blank">
+
+                        Visit our Facebook Page
+
+                    </a>
+
+                </p>
+
+
+                <p>
+
+                    <strong>
+                        Contact Number:
+                    </strong>
+
+                    YOUR_CONTACT_NUMBER_HERE
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+            © 2026 Four Sizzler. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <script>
+
+        let signedIn = false;
+
+
+        function signIn() {
+
+            let name = prompt("Enter your name to sign in:");
+
+            if (name !== null && name.trim() !== "") {
+
+                signedIn = true;
+
+                alert(
+                    "Welcome, " + name +
+                    "! You are now signed in."
+                );
+
+            }
+
+        }
+
+
+        function signUp() {
+
+            let name = prompt("Enter your name to sign up:");
+
+            if (name !== null && name.trim() !== "") {
+
+                signedIn = true;
+
+                alert(
+                    "Account created successfully! Welcome, "
+                    + name
+                    + "!"
+                );
+
+            }
+
+        }
+
+
+        function orderProduct(productName) {
+
+            if (!signedIn) {
+
+                alert(
+                    "please sign in first before continue to order"
+                );
+
+                return;
+
+            }
+
+
+            const facebookPage =
+                "YOUR_FACEBOOK_PAGE_LINK_HERE";
+
+
+            const message =
+                "Hello Four Sizzler! I would like to order: "
+                + productName;
+
+
+            const messengerLink =
+                facebookPage
+                + "?text="
+                + encodeURIComponent(message);
+
+
+            window.open(
+                messengerLink,
+                "_blank"
+            );
+
+        }
+
+    </script>
+
+
+</body>
+
+</html>
 </body>
 
