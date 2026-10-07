@@ -1,11 +1,9 @@
+```css
 *, ::after, ::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-
-/* ================= BODY ================= */
 
 html {
     scroll-behavior: smooth;
@@ -15,7 +13,6 @@ body {
     margin: 0 100px;
     background-color: #ffeaff;
 }
-
 
 /* ================= NAVIGATION ================= */
 
@@ -27,29 +24,24 @@ body {
     padding: 30px 0;
 }
 
-
 .nav .logo h1 {
     font-weight: 600;
     font-family: sans-serif;
     color: black;
 }
 
-
 .nav .logo b {
     color: #ff511c;
 }
-
 
 .nav ul {
     display: flex;
     list-style: none;
 }
 
-
 .nav ul li {
     margin-right: 30px;
 }
-
 
 .nav ul li a {
     text-decoration: none;
@@ -60,16 +52,13 @@ body {
     transition: 0.3s;
 }
 
-
 .nav ul li a:hover {
     color: #ff511c;
 }
 
-
 .nav ul .active::after {
     display: none;
 }
-
 
 /* ================= BUTTONS ================= */
 
@@ -79,18 +68,15 @@ input {
     font-weight: 600;
 }
 
-
 .signin {
     background: transparent;
     border: none;
     transition: 0.3s;
 }
 
-
 .signin:hover {
     color: #ff511c;
 }
-
 
 .signup {
     background-color: #ff511c;
@@ -101,11 +87,9 @@ input {
     transition: 0.3s;
 }
 
-
 .signup:hover {
     background-color: #d93608;
 }
-
 
 /* ================= HOME ================= */
 
@@ -119,12 +103,10 @@ input {
     width: 100%;
 }
 
-
 .content .content-left {
     display: block;
     width: 100%;
 }
-
 
 .content .content-left .info {
     max-width: 100%;
@@ -132,13 +114,11 @@ input {
     flex-direction: column;
 }
 
-
 .content .content-left .info h2 {
     font-size: 60px;
     font-family: sans-serif;
     margin-bottom: 30px;
 }
-
 
 .content .content-left .info p {
     font-size: 20px;
@@ -146,7 +126,6 @@ input {
     margin-bottom: 10px;
     font-family: sans-serif;
 }
-
 
 .content .content-left button {
     padding: 10px 23px;
@@ -157,17 +136,14 @@ input {
     transition: 0.3s;
 }
 
-
 .content .content-left button:hover {
     background-color: #d93608;
 }
-
 
 .content .content-right {
     display: block;
     width: 100%;
 }
-
 
 .content .content-right img {
     width: 400px;
@@ -177,9 +153,7 @@ input {
     animation: rotate 15s linear infinite;
 }
 
-
 @keyframes rotate {
-
     0% {
         transform: rotate(0deg);
     }
@@ -187,9 +161,7 @@ input {
     100% {
         transform: rotate(360deg);
     }
-
 }
-
 
 /* ================= MENU ================= */
 
@@ -198,10 +170,8 @@ input {
     display: flex;
     margin-bottom: 100px;
     justify-content: center;
-
     padding-top: 100px;
 }
-
 
 .category .list-items {
     width: 90%;
@@ -209,25 +179,14 @@ input {
     margin-top: 40px;
 }
 
-
-/* POPULAR DISHES */
-
 .category .list-items h3 {
     font-size: 20px;
     font-weight: 600;
     font-family: sans-serif;
 
-    /*
-       APPROXIMATELY 3 INCHES
-       BETWEEN POPULAR DISHES
-       AND THE PRODUCTS
-    */
-
-    margin-bottom: 288px;
+    /* Approximately 2 inches from Popular Dishes to products */
+    margin-bottom: 192px;
 }
-
-
-/* ================= PRODUCT CARDS ================= */
 
 .category .list-items .card-list {
     display: grid;
@@ -235,8 +194,7 @@ input {
     gap: 30px;
 }
 
-
-/* PRODUCT CARD */
+/* ================= PRODUCT CARDS ================= */
 
 .category .card-list .card {
     width: 200px;
@@ -260,16 +218,10 @@ input {
     transition: 0.3s;
 }
 
-
-/* CARD HOVER */
-
 .category .card-list .card:hover {
     transform: translateY(-8px);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
 }
-
-
-/* FOOD PHOTO */
 
 .category .card-list .card img {
     width: 115px;
@@ -291,14 +243,12 @@ input {
     border-radius: 15%;
 }
 
-
-/* FOOD TITLE */
+/* ================= FOOD TITLE ================= */
 
 .category .card-list .card .Food-Tittle {
     padding: 5px 0 8px;
     width: 100%;
 }
-
 
 .category .card-list .card .Food-Tittle h1 {
     text-align: center;
@@ -307,43 +257,31 @@ input {
     font-family: sans-serif;
 }
 
-
-/* FOOD DESCRIPTION */
+/* ================= DESCRIPTION ================= */
 
 .category .card-list .card .desc-food {
     width: 100%;
 }
 
-
 .category .card-list .card .desc-food p {
     font-size: 12px;
     text-align: center;
     font-weight: 450;
-
     margin-bottom: 15px;
-
     font-family: sans-serif;
-
     line-height: 1.5;
 }
 
-
-/* PRICE */
+/* ================= PRICE ================= */
 
 .category .card-list .card .price {
     width: 100%;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     margin-top: auto;
-
     padding-top: 8px;
 }
-
-
-/* CART ICON */
 
 .category .card .price span .cart-icon {
     color: #ff511c;
@@ -352,12 +290,10 @@ input {
     transition: 0.3s;
 }
 
-
 .category .card .price span .cart-icon:hover {
     color: #d93608;
     transform: scale(1.2);
 }
-
 
 /* ================= ABOUT US ================= */
 
@@ -367,13 +303,11 @@ input {
     text-align: center;
 }
 
-
 .about-content h2 {
     font-family: sans-serif;
     font-size: 35px;
     margin-bottom: 25px;
 }
-
 
 .about-content p {
     max-width: 700px;
@@ -383,16 +317,13 @@ input {
     line-height: 1.8;
 }
 
-
 .contact-info {
     margin-top: 30px;
 }
 
-
 .contact-info p {
     margin-bottom: 15px;
 }
-
 
 .contact-info a {
     color: #ff511c;
@@ -401,12 +332,10 @@ input {
     transition: 0.3s;
 }
 
-
 .contact-info a:hover {
     color: #000000;
     text-decoration: underline;
 }
-
 
 /* ================= FOOTER ================= */
 
@@ -418,12 +347,10 @@ footer {
     margin-top: 30px;
 }
 
-
 footer p {
     font-family: sans-serif;
     font-size: 14px;
 }
-
 
 /* ================= SCROLLBAR ================= */
 
@@ -431,12 +358,10 @@ footer p {
     width: 10px;
 }
 
-
 ::-webkit-scrollbar-thumb {
     border-radius: 20px;
     background-color: #ff511c;
 }
-
 
 /* ================= MOBILE ================= */
 
@@ -446,58 +371,50 @@ footer p {
         margin: 0 30px;
     }
 
-
     .nav {
         flex-direction: column;
         gap: 20px;
     }
 
-
     .nav ul {
         gap: 10px;
     }
 
-
     .nav ul li {
         margin-right: 10px;
     }
-
 
     .content {
         grid-template-columns: 1fr;
         text-align: center;
     }
 
-
     .content .content-left .info h2 {
         font-size: 40px;
     }
-
 
     .content .content-left .info p {
         font-size: 16px;
     }
 
-
     .content .content-right img {
         width: 300px;
     }
-
 
     .category {
         padding-top: 80px;
     }
 
-
     .category .list-items {
         width: 100%;
     }
-
 
     .category .list-items .card-list {
         grid-template-columns: 1fr;
         justify-items: center;
         gap: 80px;
     }
-
 }
+```
+
+The only spacing change is **`margin-bottom: 192px`** under “Popular Dishes.”
