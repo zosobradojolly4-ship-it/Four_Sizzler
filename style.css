@@ -154,6 +154,7 @@ input {
 }
 
 @keyframes rotate {
+
     0% {
         transform: rotate(0deg);
     }
@@ -161,6 +162,7 @@ input {
     100% {
         transform: rotate(360deg);
     }
+
 }
 
 /* ================= MENU ================= */
@@ -295,6 +297,60 @@ input {
     transform: scale(1.2);
 }
 
+/* ================= FEATURED TUNA SISIG ================= */
+
+.featured-dish {
+    width: 100%;
+    padding: 60px 30px;
+    margin: 80px 0;
+    background-color: #ffffff;
+    border-radius: 15px;
+    outline: 2px solid #faad96;
+}
+
+.featured-content {
+    width: 100%;
+    max-width: 850px;
+    margin: auto;
+}
+
+.featured-text h2 {
+    font-family: sans-serif;
+    font-size: 35px;
+    color: #ff511c;
+    margin-bottom: 15px;
+}
+
+.featured-text h3 {
+    font-family: sans-serif;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.featured-text p {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 12px;
+}
+
+.benefits {
+    margin-top: 20px;
+}
+
+.benefits p {
+    padding: 10px;
+    background-color: #fff3ed;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.featured-text .featured-ending {
+    margin-top: 25px;
+    color: #ff511c;
+    line-height: 1.5;
+}
+
 /* ================= ABOUT US ================= */
 
 .about-section {
@@ -414,5 +470,23 @@ footer p {
         justify-items: center;
         gap: 80px;
     }
+
+    .featured-dish {
+        padding: 35px 20px;
+        margin: 50px 0;
+    }
+
+    .featured-text h2 {
+        font-size: 28px;
+    }
+
+    .featured-text h3 {
+        font-size: 19px;
+    }
+
+    .featured-text p {
+        font-size: 14px;
+    }
+
 }
 ```
